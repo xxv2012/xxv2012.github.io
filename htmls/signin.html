@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GIS Maps</title>
+  </head>
+  <body>
+    <header style="background-color:lightgrey; display:flex; justify-content:space-between;">
+      <div style="float:left;">
+        <img src="../images/logo.png" alt="GIS" />
+        <a href="../index.htm">• MAPS</a>
+        <a href="resources.html">• RESOURCES</a>
+        <a href="events.html">• EVENTS</a>
+        <a href="products.html">• PRODUCTS</a>
+        </div>
+        <div style="float:right; text-align:center;">
+          <img src=../images/profile.png alt="Profile" />
+          <br />
+          <a href="signin.html">Sign in</a>
+          /
+          <a href="signup.html">Sign up</a>
+          </div>
+      </header>
+	  	  	  <!-- i added fieldset to specify region (borders) for sign up information -->
+
+      <fieldset>
+        <p>
+				  	  <!-- i used email here instead of text to avoid incorrect email input from user -->
+					  <!-- i added id in input just to make it easier for the user to click the label then it will be forwarded to its input type -->
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" />
+            </p>
+            <p>
+              <label for="Password">Password:</label>
+              <input type="password" id="Password" name="Password" />
+              </p>
+                <br />
+                <input type="submit" value="Sign in"/>
+        </fieldset>
+
+  </body>
+</html>
